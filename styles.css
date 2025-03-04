@@ -1,3 +1,4 @@
+/* সাধারণ স্টাইল */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,19 +6,58 @@ body {
     background-color: #f4f4f4;
     text-align: center;
 }
+
+/* হেডার ডিজাইন */
 header {
     background: #007BFF;
     color: white;
     padding: 20px;
     font-size: 24px;
 }
+
+/* নেভিগেশন মেনু */
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* হিরো সেকশন */
+#hero {
+    background: #0056b3;
+    color: white;
+    padding: 30px;
+}
+
+/* পোস্ট সেকশন */
 #posts {
     max-width: 600px;
     margin: 20px auto;
+    text-align: left;
 }
+
 .post {
     background: white;
     padding: 15px;
     margin: 10px;
     box-shadow: 0px 0px 5px gray;
-  }
+}
+
+/* ফুটার */
+footer {
+    background: #222;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
